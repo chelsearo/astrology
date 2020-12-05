@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/astrology/enviornment.rb'
+Astrology::CLI.new.call
