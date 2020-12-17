@@ -1,0 +1,24 @@
+bundled gem - Astrology
+Give horoscope premission to run (ls- lah chmod +x filename command)
+Simplify interface
+Create cli file _ incapsulating interface logic into one object (cli controller)
+ - create class astrology.cli
+ - define call method
+Load interperter then bin file
+
+bin astrology is my executable 
+bin is not ruby (.rb) so we need to add shabang so it knows to run in ruby
+
+enviornment lib is my enviorment where i load all files so i dont need to keep accessing across all files
+
+require relavtive is inside the application 
+require is external like pry i can still use it but its an outside source(exact path)
+
+cli classs
+call - welcomes to user and gives them options 
+
+Ask user if they would like to search for a different sign created a method to ask the user with if else statements and called on 
+if yes then restart program (call.start)
+if no then ask if they want to see a history of all the horoscopes they called before 
+if no then exit 
+creating new methods
